@@ -342,7 +342,7 @@ class App extends React.Component {
           />
         </main>
         <footer>
-          <p>Powered by Grzegorz Paprzycki (EBV-F)</p>
+          <p>Powered by Grzegorz Paprzycki</p>
           {/* <button onClick={this.handleTestClick}>Test state</button> */}
         </footer>
       </div>
