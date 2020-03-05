@@ -297,12 +297,12 @@ class App extends React.Component {
 
   handleAddPhrase = e => {
     e.preventDefault();
-    if (!this.state.newPhrase) return alert("Nie podano frazy");
+    if (!this.state.newPhrase) return alert("No phrase given");
     const newPhrase = {
       id: this.state.counter,
       phrase: this.state.newPhrase,
       phraseOfficial: this.state.newPhrase,
-      info: `Znaleziono ${this.state.newPhrase}`,
+      info: `${this.state.newPhrase} has been found`,
       active: false
     };
     const messages = [...this.state.messages, newPhrase];
