@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Phrase-Finder-React/static/css/main.bc221462.chunk.css",
+    "main.js": "/Phrase-Finder-React/static/js/main.affdcffd.chunk.js",
+    "main.js.map": "/Phrase-Finder-React/static/js/main.affdcffd.chunk.js.map",
+    "runtime-main.js": "/Phrase-Finder-React/static/js/runtime-main.5b8658af.js",
+    "runtime-main.js.map": "/Phrase-Finder-React/static/js/runtime-main.5b8658af.js.map",
+    "static/js/2.d7cc4b2b.chunk.js": "/Phrase-Finder-React/static/js/2.d7cc4b2b.chunk.js",
+    "static/js/2.d7cc4b2b.chunk.js.map": "/Phrase-Finder-React/static/js/2.d7cc4b2b.chunk.js.map",
+    "index.html": "/Phrase-Finder-React/index.html",
+    "precache-manifest.8457429065c6de37612c5e019564593e.js": "/Phrase-Finder-React/precache-manifest.8457429065c6de37612c5e019564593e.js",
+    "service-worker.js": "/Phrase-Finder-React/service-worker.js",
+    "static/css/main.bc221462.chunk.css.map": "/Phrase-Finder-React/static/css/main.bc221462.chunk.css.map",
+    "static/js/2.d7cc4b2b.chunk.js.LICENSE.txt": "/Phrase-Finder-React/static/js/2.d7cc4b2b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Phrase-Finder-React/static/media/typewriter.8614d81b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b8658af.js",
+    "static/js/2.d7cc4b2b.chunk.js",
+    "static/css/main.bc221462.chunk.css",
+    "static/js/main.affdcffd.chunk.js"
+  ]
+}
