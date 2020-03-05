@@ -7,13 +7,13 @@ const Infos = props => {
   ));
   return (
     <div className="infosUpper">
-      <h2>WSKAZÓWKI</h2>
+      <h2>Results and hints</h2>
       {props.fileLoaded === "start" ? (
-        <p>Wskazówki zostaną wyświetlone po wysłaniu pliku .csv</p>
+        <p>Results will be displayed after sending file </p>
       ) : null}
-      {props.fileLoaded === "noFileLoaded" ? <p>Nie wskazano pliku</p> : null}
+      {props.fileLoaded === "noFileLoaded" ? <p>No file loaded</p> : null}
       {props.fileLoaded === "loaded" && !props.kbvData.length ? (
-        <p>W wysłanym pliku nie znaleziono żadnej z szukanych fraz</p>
+        <p>None of the search phrases found in the uploaded file</p>
       ) : null}
       <div className="infos">{items}</div>
     </div>

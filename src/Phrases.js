@@ -13,21 +13,20 @@ const Phrases = props => {
   ));
   return (
     <section>
-      <h2>WYSZUKIWANE FRAZY</h2>
+      <h2>PHRASES TO FIND</h2>
       <div className="phrases">{phrases}</div>
       <form className="newPhrase">
         <label htmlFor="addPhrase">
-          {" "}
-          Dodaj nową frazę
+          Add new phrase
           <input
             type="text"
             id="addPhrase"
-            placeholder="Wpisz nazwę"
+            placeholder="Write text"
             onChange={props.change}
             value={props.value}
           ></input>
         </label>
-        <button onClick={props.click}>Dodaj</button>
+        <button onClick={props.click}>Add</button>
       </form>
     </section>
   );

@@ -10,309 +10,197 @@ class App extends React.Component {
     messages: [
       {
         id: 0,
-        phrase: "ELDI",
-        phraseOfficial: "ELDI",
+        phrase: "Chocolate milk",
+        phraseOfficial: "Chocolate milk",
         info:
-          "Grzalka ELDI zabudowana w autobusie (przebudowa Leitung HLK oraz elementow szkieletowych pod katem ELDI. Konieczne zadanie na HLK Software oraz polozenia zlacza pradowego).",
+          "Chocolate milk was invented in Jamaica",
         active: false
       },
       {
         id: 1,
-        phrase: "CEJN",
-        phraseOfficial: "CEJN",
+        phrase: "Hawaiian Pizza",
+        phraseOfficial: "Hawaiian Pizza",
         info:
-          "Złącze CEJN (przebudowa Leitung HLK oraz elementow szkieletowych pod kątem ELDI. Konieczne zadanie na HLK Software)",
+          "Hawaiian Pizza was invented by a boy from Canada.",
         active: false
       },
-      // {
-      //   id: 2,
-      //   phrase: "Wartesaalschaltung",
-      //   phraseOfficial: "Wartesaalschaltung",
-      //   info:
-      //     "Zwróc uwagę czy chodzi o lampki czy o piecyk z Bypassem. W razie piecyka konieczne zadanie na HLK, Software oraz elektrykę.",
-      //   active: false
-      // },
+      {
+        id: 2,
+        phrase: "Cheese",
+        phraseOfficial: "Cheese",
+        info:
+          "Cheese is the most frequently stolen food from shops.",
+        active: false
+      },
       {
         id: 3,
-        phrase: "reinstiegsbeleuchtung",
-        phraseOfficial: "LED-Türeinstiegsbeleuchtung",
+        phrase: "Chicken",
+        phraseOfficial: "Chicken",
         info:
-          "Odpowiednie elementy szkieletowe na wejsciach do autobusu. Uwaga na Auffahrkufe z przodu po prawej.",
+          'There are 19 billion chickens on Earth, while "only" 7,5 billion people.',
         active: false
       },
       {
         id: 4,
-        phrase: "Vorderachsschmierung",
-        phraseOfficial: "Vorderachsschmierung",
+        phrase: "Microwave meal",
+        phraseOfficial: "Microwave meal",
         info:
-          "Zabudowa odpowiedniego ukladu smarowania - konieczna kontrola otoczenia osi. Sprawdź czy osie mają czujniki skrętu.",
+          "The technologies currently used in microwave ovens were used to track German aircraft during World War II.",
         active: false
       },
       {
         id: 5,
-        phrase: "Schneeketten",
-        phraseOfficial: "Schneeketten",
+        phrase: "Beer",
+        phraseOfficial: "Beer",
         info:
-          "Podmiana chlapaczy na wariant przystosowany do łańcuchów śniegowych. Trzeba upewnić się czy klient zamówił również schowek na łańcuchy. Jeżeli nie, to czy na pewno nie chce?",
+          "Builders of the Egyptian pyramids were paid with bread and beer.",
         active: false
       },
       {
         id: 6,
-        phrase: "Auffahrkufen",
-        phraseOfficial: "Auffahrkufen",
+        phrase: "Lobster",
+        phraseOfficial: "Lobster",
         info:
-          "Jeżeli seryjne to spoko. Natomaist jeżeli KSW to:   L4C: Podmiana elementów szkieletowych, kompatybilnych z odbojnikami z tyłu.    L3C: zwrócić uwagę, czy mają być przykręcane czy spawane. Możliwa kolizja z #30R0.",
+          'At the beginning of the XX century, lobsters were considered a delicacy for the poor, and were given to, e.g. prisoners. Everything changed thanks to railways - during long transcontinental journeys, lobster passengers were served as a sophisticated and exquisite dish.',
         active: false
       },
       {
         id: 7,
-        phrase: "Ampelsender",
-        phraseOfficial: "Ampelsender",
+        phrase: "Fresh milk",
+        phraseOfficial: "Fresh milk",
         info:
-          "Zabudowa anteny pod przodem pojazdu. Konieczne podanie wymiarów przez klienta. L4C: wzorcowe zabudowy: 33.#0ACV-B002 oraz 33.#0ACV-B017.",
+          'Before the invention of refrigerators, people would put live frogs into their milk to protect them from deterioration.',
         active: false
       },
       {
         id: 8,
-        phrase: "Ampelbeinfl",
-        phraseOfficial: "Ampelbeinflussung",
+        phrase: "Honey",
+        phraseOfficial: "Honey",
         info:
-          "Zabudowa anteny pod przodem pojazdu. Konieczne podanie wymiarów przez klienta. L4C: wzorcowe zabudowy: 33.#0ACV-B002 oraz 33.#0ACV-B017.",
+          "Honey is the only food in the world that doesn't go bad",
         active: false
       },
       {
         id: 9,
-        phrase: "Dachlackierung",
-        phraseOfficial: "Dachlackierung",
+        phrase: "Bread",
+        phraseOfficial: "Bread",
         info:
-          "L4C: Do lakierowania z zewnątrz są dopuszczone tylko jasne kolory.  Można to sprawdzić na stronie: https://www.e-paint.co.uk/Lab_values.asp (Wartość 'L' musi być większa niż 30).",
+          'Cosmonauts eat pancakes instead of bread, because crumbs can cause many problems inside the space station.',
         active: false
       },
       {
         id: 10,
-        phrase: "tzliche Beschilderung",
-        phraseOfficial: "Zusätzliche Beschilderung",
-        info: "Naklejki na zbiornikach powietrza we właściwym języku.",
+        phrase: "Cookies",
+        phraseOfficial: "Cookies",
+        info:
+          'Ruth Wakefield - the inventor of chocolate chip cookies - sold her idea to Nestle in exchange for a lifetime supply of chocolate',
         active: false
       },
       {
         id: 11,
-        phrase: "Sparschaltung bei abgeschalteten Motor",
-        phraseOfficial: "Sparschaltung bei abgeschalteten Motor",
+        phrase: "Ketchup",
+        phraseOfficial: "Ketchup",
         info:
-          "Dobranie właściwego piecyka na potrzeby zrealizowania życzenia - konieczne zadanie na HLK i Software.",
+          "In 96% of American homes, you'll always find ketchup. Salt and pepper not necessarily.",
         active: false
       },
       {
         id: 12,
-        phrase: "Konvektoren nicht verbauen",
-        phraseOfficial: "Konvektoren nicht verbauen",
+        phrase: "White chocolate",
+        phraseOfficial: "White chocolate",
         info:
-          "Konfiguracja KSW nie posiadająca żadnych konwektorów - konieczne złożenie całego układu HLK!",
+          'Technically, white chocolate is not chocolate at all.',
         active: false
       },
       {
         id: 13,
-        phrase: "glichen Einbau einer Rampe",
-        phraseOfficial: "nachträglichen Einbau einer Rampe",
+        phrase: "Chips",
+        phraseOfficial: "Chips",
         info:
-          "L4C: Życzenie klienta dla Hiszpani - seryjny szkielet wejścia dla elektrycznej rampy + KSW 33.#0JRV-B003.",
+          'The inventor Pringles was cremated after his death, and his ashes were placed in a tube after these chips.',
         active: false
       },
       {
         id: 14,
-        phrase: "ndschloss auf I-Bedientaf",
-        phraseOfficial: "Zündschloss auf I-Bedientafel",
+        phrase: "Cheddar",
+        phraseOfficial: "Cheddar",
         info:
-          "L4C: ściana KSW #00KU + stacyjka na Bedientaffel. #009V Ohne Zundschloss zostaje!   Jeżeli jest VDV to się nie przejmuj. Typ deski rozdzielczej - nie wpływa na nasz obszar.",
+          'Cheddar is always orange because it is intentionally colored.',
         active: false
       },
       {
         id: 15,
-        phrase: "Felgenlackierung",
-        phraseOfficial: "Felgenlackierung",
-        info: "Sprawdzić czy zasterowane felgi są odpowiednie (kolor).",
-        active: false
-      },
-      {
-        id: 16,
-        phrase: "Radzierblendenlackierung",
-        phraseOfficial: "Radzierblendenlackierung",
-        info: "Kołpaki lakierowane.",
-        active: false
-      },
-      {
-        id: 17,
-        phrase: "TPM",
-        phraseOfficial: "TPM",
-        info: "Czujniki ciśnienia w oponach - sprawdzić czy pasuje do kołpaków",
-        active: false
-      },
-      {
-        id: 18,
-        phrase: "Tresor",
-        phraseOfficial: "Tresor",
+        phrase: "Carrot",
+        phraseOfficial: "Carrot",
         info:
-          "Schowek na przedzie pojazdu. Sprawdź czy nie ma jakichś specjalnych życzeń w związku z nim.",
-        active: false
-      },
-      {
-        id: 19,
-        phrase: "Skikorbhalterung",
-        phraseOfficial: "Skikorbhalterung",
-        info:
-          "Dodatkowy bagażnik na narty - sprawdzić czy są odpowiednie wzmocnienia w szkielecie.",
-        active: false
-      },
-      {
-        id: 20,
-        phrase: "Reklametafel",
-        phraseOfficial: "Reklametafel",
-        info: "Reklamy na panelach - konieczne dopasowanie poszycia",
-        active: false
-      },
-      {
-        id: 21,
-        phrase: "#1M80",
-        phraseOfficial: "#1M80",
-        info: "Obniżone obrysówki - konieczne dopasowanie poszycia",
-        active: false
-      },
-      {
-        id: 22,
-        phrase: "Werbung",
-        phraseOfficial: "Werbung",
-        info: "Reklamy na panelach - konieczne dopasowanie poszycia",
-        active: false
-      },
-      {
-        id: 23,
-        phrase: "Geschraubte SW Beplankung",
-        phraseOfficial: "Geschraubte SW Beplankung",
-        info:
-          "L3C: zwróc uwagę, czy klient nie chce mieć przykręcanych paneli. Wówczas konieczne zadanie na Exterieur oraz Gerippe.",
-        active: false
-      },
-      {
-        id: 24,
-        phrase: "hrkamera",
-        phraseOfficial: "Rueckfahrkamera",
-        info:
-          "L4C: pod kodem z Ruckfahrkamera (np: 0IHAL) może znajdować się życzenie na kamery po bokach pojazdu. Wówczas konieczne jest przerobienie szkieletu pod mocowanie kamer po bokach pojazdu.",
-        active: false
-      },
-      {
-        id: 25,
-        phrase: "Rotierende",
-        phraseOfficial: "Rotierende",
-        info: "Osłony elementów rotujących w silniku.",
-        active: false
-      },
-      {
-        id: 26,
-        phrase: "Begehbares",
-        phraseOfficial: "Begehbares",
-        info: "Maty antypoślizgowe na dachu.",
-        active: false
-      },
-      {
-        id: 27,
-        phrase: "Antirutschmatten",
-        phraseOfficial: "Antirutschmatten",
-        info: "Maty antypoślizgowe na dachu.",
-        active: false
-      },
-      {
-        id: 28,
-        phrase: "Antislipper",
-        phraseOfficial: "Antislipper",
-        info: "Maty antypoślizgowe na dachu.",
-        active: false
-      },
-      {
-        id: 29,
-        phrase: "Biodiesel",
-        phraseOfficial: "Biodiesel",
-        info:
-          "Wygląda na to, że auto ma być zasilane BioDieslem. Pamiętaj o konieczności zasterowania piecyka z podgrzewanym filtrem paliwa.",
-        active: false
-      },
-      {
-        id: 30,
-        phrase: "hter Lenkeinschlag ",
-        phraseOfficial: "Erhöhter Lenkeinschlag ",
-        info:
-          "L3C: zwiększenie kąta kierowania. Prawdopodobnie trzeba zasterować pod kodem V030F VGR 36.#2560-B005, 36.#2490-B001, 81.#0300-1078",
-        active: false
-      },
-      {
-        id: 31,
-        phrase: "Riffelblech",
-        phraseOfficial: "Riffelblech",
-        info:
-          "Sterowanie VGR #2N10 do odpowiednich pkt podnoszenia (klient Francja/Belgia).",
-        active: false
-      },
-      {
-        id: 32,
-        phrase: "Batteriefachklappe auf linker Seite",
-        phraseOfficial: "Batteriefachklappe auf linker Seite",
-        info:
-          "L4C: klapa na baterie po lewej stronie. Konieczne zadanie na Gerippe oraz Exterieur (lub zastosowanie odpowiednich KV).",
-        active: false
-      },
-      {
-        id: 33,
-        phrase: "UWE Schacht",
-        phraseOfficial: "UWE Schacht",
-        info:
-          "Specjalne urządzenie do zewnętrznego grzania układu obiegu wody. Wzorcowa VGR: 33.#4260-B048",
-        active: false
-      },
-      {
-        id: 34,
-        phrase: "Calix",
-        phraseOfficial: "Calix",
-        info: "Grzałka silnika - sugerowana VGR 51.#0500-0074",
+          'Carrots-miniatures are simply ungrown specimens. They were "invented" when farmers got bored throwing them out as defective.',
         active: false
       }
     ],
     exceptions: [
       {
-        phrase: "Ohne Felgenlackierung",
-        phraseOfficial: "Felgenlackierung"
+        phrase: "No Chocolate milk",
+        phraseOfficial: "Chocolate milk",
       },
       {
-        phrase: "Ohne Radzierblendenlackierung",
-        phraseOfficial: "Radzierblendenlackierung"
+        phrase: "No Hawaiian Pizza",
+        phraseOfficial: "Hawaiian Pizza",
       },
       {
-        phrase: "Ohne Reifendruck",
-        phraseOfficial: "TPM"
+        phrase: "No Cheese",
+        phraseOfficial: "Cheese",
       },
       {
-        phrase: "Ohne Reifendruck",
-        phraseOfficial: "TPM"
+        phrase: "No Chicken",
+        phraseOfficial: "Chicken",
       },
       {
-        phrase: "Ohne Tresor",
-        phraseOfficial: "Tresor"
+        phrase: "No Microwave meal",
+        phraseOfficial: "Microwave meal",
       },
       {
-        phrase: "Ohne Skikorbhalterung",
-        phraseOfficial: "Skikorbhalterung"
+        phrase: "No Beer",
+        phraseOfficial: "Beer",
       },
       {
-        phrase: "Ohne Reklametafelrahmen au",
-        phraseOfficial: "Reklametafel"
+        phrase: "No Lobster",
+        phraseOfficial: "Lobster",
       },
       {
-        phrase: "Ohne Abdeckung rotierender",
-        phraseOfficial: "Rotierende"
+        phrase: "No Fresh milk",
+        phraseOfficial: "Fresh milk",
       },
       {
-        phrase: "Biodieselanteil bis max. 7%",
-        phraseOfficial: "Biodiesel"
+        phrase: "No Honey",
+        phraseOfficial: "Honey",
+      },
+      {
+        phrase: "No Bread",
+        phraseOfficial: "Bread",
+      },
+      {
+        phrase: "No Cookies",
+        phraseOfficial: "Cookies",
+      },
+      {
+        phrase: "No Ketchup",
+        phraseOfficial: "Ketchup",
+      },
+      {
+        phrase: "No White chocolate",
+        phraseOfficial: "White chocolate",
+      },
+      {
+        phrase: "No Chips",
+        phraseOfficial: "Chips",
+      },
+      {
+        phrase: "No Cheddar",
+        phraseOfficial: "Cheddar",
+      },
+      {
+        phrase: "No Carrot",
+        phraseOfficial: "Carrot",
       }
     ],
     kbvData: [],
