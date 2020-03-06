@@ -3,7 +3,7 @@
 --------------
 
 ## What is this?
-Phrase Finder is an application which help us searching for any phrase we want to.
+Phrase Finder is an application which helps us searching for any phrase we want to.
 
 ## Why it was created?
 It was originally created for MAN Bus to support busses configurating. This version is rework to neutral version after considering privacy issue. 
